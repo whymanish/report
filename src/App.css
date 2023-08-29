@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+body{
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+
+.newsheader{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+}
+/* ReportDashboard.css */
+
+/* Additional styling for printing */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-container,
+  .print-container * {
+    visibility: visible;
+  }
+
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* Add any additional print-specific styles here */
+}
